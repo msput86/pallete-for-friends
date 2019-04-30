@@ -1,0 +1,51 @@
+.container.main{
+    padding-top:25px;
+}
+.palete{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+.second-column{
+    padding:0;
+}
+.palete-container{
+    width: 100%;
+    height: 630px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+
+}
+.figure{
+    position: absolute;
+    background-color:gray;
+    width:200px;
+    height: 200px;
+    border: 2px solid black;
+}
+.figure.round{
+    border-radius: 100px;
+}
+
+.color-icon{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    border-radius: 10px;
+
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+  }
+  .light-border{
+      border-color: yellow;
+  }
